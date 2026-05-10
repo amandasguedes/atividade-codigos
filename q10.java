@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class q10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("digite a duração em s: ");
+        System.out.print("digite a duração em s:");
         int duracao=sc.nextInt();
         int horas=duracao/3600;
         int resto =duracao%3600;
