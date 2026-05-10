@@ -5,11 +5,11 @@ public class exemplopr {
     public static void main(String[] args) {
         Locale.setDefault(new Locale("pt", "BR"));
         Scanner sc=new Scanner(System.in);
-        System.out.print("digite a largura do terreno: ");
+        System.out.print("digite a largura do terreno:");
         double l=sc.nextDouble();
-        System.out.print("digite o comprimento do terreno: ");
+        System.out.print("digite o comprimento do terreno:");
         double c=sc.nextDouble();
-        System.out.print("digite o valor do metro quadrado: ");
+        System.out.print("digite o valor do metro quadrado:");
         double valor=sc.nextDouble();
         double area=l*c;
         double p=area*valor;
